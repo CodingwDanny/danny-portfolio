@@ -13,60 +13,39 @@ export const siteConfig = {
 Through self-driven learning and formal training, I’ve built practical experience in cleaning, modeling, and analyzing data to support better decisions. I’m passionate about solving real-world problems with data, and I’m eager to keep growing as a data professional—continuously improving my skills while contributing with impact.`,
   skills: ["Power BI", "SQL", "Python", "Excel"],
   projects: [
-    // Podés agregar tus propios proyectos reales aquí más adelante
+    // You can add your real projects here later
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "BMA Group (Amazon Prime Air)",
+      title: "Data Analyst BPO",
+      dateRange: "Nov 2023 – Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Performed end-to-end labeling and QA of visual datasets for machine learning and computer vision systems, ensuring accuracy and consistency.",
+        "Managed confidential data using tools like SharePoint, Excel, and Quip, tracking project status, metrics, and performance indicators.",
+        "Collaborated with engineering and science teams to evaluate data quality and improve the data pipeline, while training new analysts on key tools and procedures."
       ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Universidad Estatal a Distancia (UNED)",
+      degree: "Diploma in Software Engineering",
+      dateRange: "Feb 2025 – May 2028",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Currently pursuing a degree in Software Engineering focused on computing fundamentals, systems design, and software development.",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "Codecademy",
+      degree: "Data Analyst Bootcamp with AI",
+      dateRange: "Aug 2025 – Nov 2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "11-week intensive bootcamp with 100+ hours of guided instruction and practice.",
+        "Learned Python, SQL, Excel, Power BI, Gen AI tools, prompt engineering, and Microsoft Fabric.",
+        "Completed real-world projects in customer churn prediction, SQL case studies, and Power BI dashboards with AI insights.",
       ],
-    },
+    }
   ],
 };
+
