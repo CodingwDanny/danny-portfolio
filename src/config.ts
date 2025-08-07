@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Danny Chacón",
-  title: "Microsoft certified Data Analyst",
+  title: "Microsoft Certified Data Analyst",
   description: "Portfolio website of Danny Chacón",
   accentColor: "#1d4ed8",
   social: {
@@ -8,12 +8,13 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/danny-chac%C3%B3n/",
     github: "https://github.com/CodingwDanny",
   },
-  aboutMe:
-    "I’m a Microsoft Certified Power BI Data Analyst Associate with a strong foundation in data analytics and a growing portfolio of business-focused projects. I specialize in transforming raw data into clear insights through interactive dashboards and visual storytelling using Power BI, Excel, SQL, and Python.
-Through self-driven learning and formal training, I’ve built practical experience in cleaning, modeling, and analyzing data to support better decisions. I’m passionate about solving real-world problems with data, and I’m eager to keep growing as a data professional—continuously improving my skills while contributing with impact.",
+  aboutMe: `I’m a Microsoft Certified Power BI Data Analyst Associate with a strong foundation in data analytics and a growing portfolio of business-focused projects. I specialize in transforming raw data into clear insights through interactive dashboards and visual storytelling using Power BI, Excel, SQL, and Python.
+
+  Through self-driven learning and formal training, I’ve built practical experience in cleaning, modeling, and analyzing data to support better decisions. I’m passionate about solving real-world problems with data, and I’m eager to keep growing as a data professional—continuously improving my skills while contributing with impact.`,
   skills: ["Power BI", "SQL", "Python", "Excel"],
-  projects: [
-    {
+  projects: [],
+};
+
       name: "AI Dev Roundup Newsletter",
       description:
         "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
