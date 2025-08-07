@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "Danny Chacón",
   title: "Microsoft Certified Data Analyst",
   description: "Portfolio website of Danny Chacón",
-  accentColor: "#1d4ed8",
+  accentColor: "#a855f7",
   social: {
     email: "dannyjowell09@gmail.com",
     linkedin: "https://www.linkedin.com/in/danny-chac%C3%B3n/",
