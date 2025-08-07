@@ -10,31 +10,10 @@ export const siteConfig = {
   },
   aboutMe: `I’m a Microsoft Certified Power BI Data Analyst Associate with a strong foundation in data analytics and a growing portfolio of business-focused projects. I specialize in transforming raw data into clear insights through interactive dashboards and visual storytelling using Power BI, Excel, SQL, and Python.
 
-  Through self-driven learning and formal training, I’ve built practical experience in cleaning, modeling, and analyzing data to support better decisions. I’m passionate about solving real-world problems with data, and I’m eager to keep growing as a data professional—continuously improving my skills while contributing with impact.`,
+Through self-driven learning and formal training, I’ve built practical experience in cleaning, modeling, and analyzing data to support better decisions. I’m passionate about solving real-world problems with data, and I’m eager to keep growing as a data professional—continuously improving my skills while contributing with impact.`,
   skills: ["Power BI", "SQL", "Python", "Excel"],
-  projects: [],
-};
-
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+  projects: [
+    // Podés agregar tus propios proyectos reales aquí más adelante
   ],
   experience: [
     {
