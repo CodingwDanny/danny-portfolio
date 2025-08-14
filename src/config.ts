@@ -31,7 +31,7 @@ Through self-driven learning and formal training, I’ve built practical experie
     {
       school: "Universidad Estatal a Distancia (UNED)",
       degree: "Diploma in Software Engineering",
-      dateRange: "Feb 2025 – May 2028",
+      dateRange: "Feb 2025 – Aug 2027",
       achievements: [
         "Currently pursuing a degree in Software Engineering focused on computing fundamentals, systems design, and software development.",
       ],
