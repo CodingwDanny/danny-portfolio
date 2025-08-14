@@ -11,11 +11,11 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
   class="fixed top-0 left-0 right-0 z-50 hidden md:block transition-all duration-300"
 >
   <nav class="max-w-7xl mx-auto px-8 py-4">
-    <ul class="flex items-center gap-8 justify-center">
+    <ul id="nav-links" class="flex items-center gap-8 justify-center text-white transition-colors duration-300">
       <li>
         <a
           href="#about"
-          class="text-gray-700 hover:text-black transition-colors font-medium"
+          class="hover:text-blue-500 font-medium"
         >
           About
         </a>
@@ -25,7 +25,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <li>
             <a
               href="#projects"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              class="hover:text-blue-500 font-medium"
             >
               Projects
             </a>
@@ -37,7 +37,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <li>
             <a
               href="#experience"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              class="hover:text-blue-500 font-medium"
             >
               Experience
             </a>
@@ -49,7 +49,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <li>
             <a
               href="#education"
-              class="text-gray-700 hover:text-black transition-colors font-medium"
+              class="hover:text-blue-500 font-medium"
             >
               Education
             </a>
@@ -63,10 +63,15 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
 <script>
   window.addEventListener("scroll", () => {
     const header = document.getElementById("header");
+    const navLinks = document.getElementById("nav-links");
     if (window.scrollY > 100) {
       header?.classList.add("bg-white/80", "backdrop-blur-sm");
+      navLinks?.classList.remove("text-white");
+      navLinks?.classList.add("text-gray-800");
     } else {
       header?.classList.remove("bg-white/80", "backdrop-blur-sm");
+      navLinks?.classList.remove("text-gray-800");
+      navLinks?.classList.add("text-white");
     }
   });
 </script>
